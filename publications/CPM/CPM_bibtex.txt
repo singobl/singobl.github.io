@@ -1,9 +1,0 @@
-@article{Wu:2009:CPM,
-  author       = {Hongzhi Wu and Julie Dorsey and Holly Rushmeier},
-  title        = {Characteristic Point Maps},
-  journal      = {Computer Graphics Forum},
-  volume       = {28},
-  number       = {4},
-  pages        = {1227--1236},
-  year         = {2009}
-}

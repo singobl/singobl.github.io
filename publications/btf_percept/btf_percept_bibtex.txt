@@ -1,6 +1,0 @@
-@article{JaraboTVCG2014,
-    author = {Jarabo, Adrian and Wu, Hongzhi and Dorsey, Julie and Rushmeier, Holly and Gutierrez, Diego},
-    title = {Effects of Approximate Filtering on the Appearance of Bidirectional Texture Functions},
-    journal = {IEEE Transactions on Visualization and Computer Graphics},
-    year = {2014},
-} 

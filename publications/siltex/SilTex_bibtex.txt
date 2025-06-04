@@ -1,9 +1,0 @@
-@inproceedings{Wu:2006:SILTEX,
- crossref = {EGSR06-proc},
- author = {Hongzhi Wu and Li-Yi Wei and Xi Wang and Baining Guo},
- title = {Silhouette Texture},
- pages = {285--296},
- year = {2006},
- URL = {http://www.eg.org/EG/DL/WS/EGWR/EGSR06/285-296.pdf},
- DOI = {10.2312/EGWR/EGSR06/285-296}
-}
