@@ -66,13 +66,14 @@ a img {border: none; }
 		color: #000000
 		}
 		
-.textsectionheader2 {  
-		font-family:  Georgia, Times, serif;
-		font-size: 12pt; 
-		font-style: normal; 
-		font-weight: bold; 
-		color:#000000;
-		}
+.textsectionheader2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center; /* 图标与文字垂直居中 */
+}
 		
 .textsectionheader3 {  
 		font-family:  Georgia, Times, serif;
@@ -157,4 +158,49 @@ a img {border: none; }
 
 body {
 	background-color:rgb(225,225,225);
+}
+
+/* 列表样式 */
+.education-list, .honors-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* 列表项样式 */
+.education-list li, .honors-list li {
+  display: flex;
+  align-items: flex-start; /* 图标与文字顶部对齐 */
+  margin-bottom: 8px;
+}
+
+/* 标题图标样式 */
+.title-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* 列表项图标样式 */
+.list-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  margin-top: 2px; /* 微调图标垂直位置 */
+}
+/* 实习列表样式（复用之前的图标样式） */
+.internship-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.internship-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
 }
