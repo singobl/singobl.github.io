@@ -88,7 +88,9 @@ h2 { margin-bottom: 0; font-size: 34px; }
 .site-footer { padding: 24px 0; color: #d9ece8; background: #172d30; font-size: 14px; }
 .site-footer div { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .site-footer a { color: #d9ece8; }
-.visit-counter { display: inline-flex; align-items: center; height: 20px; line-height: 0; }
+.visit-counter { display: inline-flex; align-items: center; gap: 7px; height: 20px; color: #d9ece8; line-height: 1; text-decoration: none; }
+.visit-counter:hover { color: #fff; }
+.visit-label { font-size: 12px; font-weight: 800; letter-spacing: .08em; }
 .visit-counter img { display: block; width: auto; height: 20px; border: 0; }
 
 /* Legacy course pages that share this stylesheet. */
