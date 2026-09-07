@@ -89,7 +89,7 @@ h2 { margin-bottom: 0; font-size: 34px; }
 .site-footer div { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .site-footer a { color: #d9ece8; }
 .visit-counter { display: inline-flex; align-items: center; height: 20px; line-height: 0; }
-.visit-counter img { display: block; width: 118px; height: 20px; border: 0; }
+.visit-counter img { display: block; width: auto; height: 20px; border: 0; }
 
 /* Legacy course pages that share this stylesheet. */
 .text, .textbold, .textsmall, .textvsmall, .textsectionheader1, .textsectionheader2, .textsectionheader3, .textsectionheader3grey { font-family: Georgia, "Times New Roman", serif; color: var(--ink); }
