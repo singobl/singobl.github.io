@@ -63,9 +63,9 @@ h2 { margin-bottom: 0; font-size: 34px; }
 .publication-item h3 a:hover { color: var(--teal); }
 .authors { margin-bottom: 14px; color: var(--muted); font-size: 15px; line-height: 1.55; }
 .authors strong { color: var(--ink); }
-.download-link { display: inline-block; padding: 6px 10px; color: var(--teal-dark); background: var(--aqua); border: 1px solid #b9ddd8; border-radius: 4px; font-size: 13px; font-weight: 800; text-decoration: none; }
-.download-link:hover { color: #fff; background: var(--teal); border-color: var(--teal); }
-.download-link span { font-weight: 650; }
+.citation-stat { display: inline-flex; align-items: baseline; gap: 6px; margin: 0; color: var(--teal-dark); font-size: 13px; font-weight: 800; }
+.citation-stat strong { display: inline-grid; place-items: center; min-width: 25px; height: 25px; padding: 0 7px; color: #fff; background: var(--teal); border-radius: 4px; font-size: 14px; }
+.citation-stat small { margin-left: 3px; color: var(--muted); font-size: 12px; font-weight: 600; }
 
 .background-section { padding: 76px 0; background: var(--warm); }
 .background-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(48px, 9vw, 144px); }
@@ -81,8 +81,10 @@ h2 { margin-bottom: 0; font-size: 34px; }
 .internship { margin: 27px 0 0; font-size: 14px; line-height: 1.55; }
 
 .site-footer { padding: 24px 0; color: #d9ece8; background: #172d30; font-size: 14px; }
-.site-footer div { display: flex; justify-content: space-between; gap: 24px; }
+.site-footer div { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .site-footer a { color: #d9ece8; }
+.visit-counter { display: inline-flex; align-items: center; height: 20px; line-height: 0; }
+.visit-counter img { display: block; width: 118px; height: 20px; border: 0; }
 
 /* Legacy course pages that share this stylesheet. */
 .text, .textbold, .textsmall, .textvsmall, .textsectionheader1, .textsectionheader2, .textsectionheader3, .textsectionheader3grey { font-family: Georgia, "Times New Roman", serif; color: var(--ink); }
@@ -121,4 +123,5 @@ h2 { margin-bottom: 0; font-size: 34px; }
   .publication-count { display: inline-block; margin-top: 8px; }
   .site-footer div { display: block; }
   .site-footer a { display: inline-block; margin-top: 6px; }
+  .visit-counter { display: flex !important; margin-top: 10px !important; }
 }
